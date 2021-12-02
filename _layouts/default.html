@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +15,13 @@
   <body>
     <div class="wrapper">
       <header>
-        <h2><bold>{{site.firstname}}</bold>{{site.lastname}}</h1>
+        <h2><bold>{{site.firstname}}</bold>{{site.lastname}}</h2>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <h3><p>{{ site.description | default: site.github.project_tagline }}</p></h3></header>
+        <h3><p>{{ site.description | default: site.github.project_tagline }}</p></h3>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
