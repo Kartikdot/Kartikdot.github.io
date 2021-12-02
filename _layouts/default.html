@@ -15,13 +15,13 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><bold>{{site.firstname}}</bold>{{site.lastname}}</h1>
+        <h2><bold>{{site.firstname}}</bold>{{site.lastname}}</h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <h2></h2><p>{{ site.description | default: site.github.project_tagline }}</p></header><h2>
+        <h3><p>{{ site.description | default: site.github.project_tagline }}</p></h3></header>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
