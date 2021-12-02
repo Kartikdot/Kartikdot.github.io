@@ -1,5 +1,6 @@
-title: Kartik Kwatra
+firstname: Kartik
+lastname: Kwatra
 logo: /assets/img/profImg.jpeg
 description: Software Developer @Microsoft.
-show_downloads: false
+bio: Hi
 theme: jekyll-theme-minimal
