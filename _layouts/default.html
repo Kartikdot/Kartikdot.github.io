@@ -27,9 +27,12 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        {% if site.bio %}
-        <p class="view">{{site.bio}}</p>
-        {% endif %}
+        <h2>Read Along with me</h2>
+        <P>Current books and stuff I am reading</P>
+
+        <img src="/assets/img/DDIA.jpeg" style="height: 250px; aspect-ratio: initial;" alt="Designing Data Intensive Applications"/>
+        <a href="">Designing Data intensive Applications</a>
+        <img class="thumbnail" src="" alt="Hooked"/>  
 
       </header>
       <section>
@@ -38,9 +41,6 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
