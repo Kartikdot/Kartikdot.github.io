@@ -15,9 +15,15 @@ Here are few things about me.
 In my free time I like to watch F1, and play the F1 game.
 
 # Updates
-*   **September '21**: Joined teh Azure Cosmos DB team to explore my interest in Distributed systems.
+
+*   **September '21**: Joined teh Azure Cosmos DB team to explore my interest in Distributed systems
+
 *   **August '21**: Got promoted! Hurray!
+
 *   **March '21**: Received Merit Scholarship from College!
-*   **January '21**: What a way to start the year. Won the org wide Hackathon. This was a great learning experience where I got the opportunity to work with some amazing people.
+
+*   **January '21**: What a way to start the year. Won the org wide Hackathon. This was a great learning experience where I got the opportunity to work with some amazing people
+
 *   **August '20**: Starting out on my first full time job as a Software Developer. #MSFTian!
+
 *   **June '20**: Presenting at my first conference: Internation conference on Data Analytics and Management
